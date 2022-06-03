@@ -1,19 +1,19 @@
 # Project 1 - *Name of App Here*
 
-**Name of your app** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
+**Flixter Movies** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [ ] User can **scroll through current movies** from the Movie Database API
-* [ ] Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-* [ ] For each movie displayed, user can see the following details:
-    * [ ] Title, Poster Image, Overview (Portrait mode)
-    * [ ] Title, Backdrop Image, Overview (Landscape mode)
-* [ ] Allow user to view details of the movie including ratings within a separate activity
+* [x] User can **scroll through current movies** from the Movie Database API
+* [x] Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
+* [x] For each movie displayed, user can see the following details:
+    * [x] Title, Poster Image, Overview (Portrait mode)
+    * [x] Title, Backdrop Image, Overview (Landscape mode)
+* [x] Allow user to view details of the movie including ratings within a separate activity
 
 The following **stretch** features are implemented:
 
@@ -30,13 +30,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/CidjuOZ' title='Flixter Movies App Showcase' width='100' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The process was very straight forward. I believe the hardest aspect of this project was the time I reserved for completing it.
+I achieved a Minimum Viable Product in the desired time. However, I didn't allocate my time correctly so I could complete any of the stretch goals before submission.  
 
 ## Open-source libraries used
 
