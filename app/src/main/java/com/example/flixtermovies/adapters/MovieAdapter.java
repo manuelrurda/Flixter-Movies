@@ -1,6 +1,7 @@
 package com.example.flixtermovies.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,8 +13,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.flixtermovies.MovieDetails;
 import com.example.flixtermovies.R;
 import com.example.flixtermovies.models.Movie;
+
+import org.parceler.Parcels;
 
 import java.util.List;
 
@@ -53,7 +57,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
     }
 
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView movieTitle;
         ImageView moviePoster;
@@ -65,6 +69,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
             movieTitle = itemView.findViewById(R.id.movieTitle);
             movieOverview = itemView.findViewById(R.id.movieOverview);
             moviePoster = itemView.findViewById(R.id.moviePoster);
+            itemView.setOnClickListener(this);
         }
 
         public void bind(Movie movie) {
@@ -80,6 +85,23 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
                     .into(moviePoster);
 
 
+        }
+
+        @Override
+        public void onClick(View v) {
+            // gets item position
+            int position = getAdapterPosition();
+            // make sure the position is valid, i.e. actually exists in the view
+            if (position != RecyclerView.NO_POSITION) {
+                // get the movie at the position, this won't work if the class is static
+                Movie movie = movies.get(position);
+                // create intent for the new activity
+                Intent intent = new Intent(context, MovieDetails.class);
+                // serialize the movie using parceler, use its short name as a key
+                intent.putExtra(Movie.class.getSimpleName(), Parcels.wrap(movie));
+                // show the activity
+                context.startActivity(intent);
+            }
         }
     }
 }
