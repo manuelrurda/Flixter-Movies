@@ -85,7 +85,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
                     .into(moviePoster);
 
 
-        }
+        }x
 
         @Override
         public void onClick(View v) {

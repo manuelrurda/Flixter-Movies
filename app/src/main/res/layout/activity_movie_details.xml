@@ -8,13 +8,15 @@
 
     <TextView
         android:id="@+id/mvTitle"
-        android:layout_width="370dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="22dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
         android:textSize="24sp"
         tools:text="Movie Title" />
 
