@@ -14,22 +14,24 @@
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:layout_marginEnd="22dp"
-        android:paddingStart="5dp"
-        android:paddingEnd="5dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingHorizontal="20dp"
+        android:textColor="#000000"
         android:textSize="24sp"
         tools:text="Movie Title" />
 
     <TextView
         android:id="@+id/mvOverview"
-        android:layout_width="194dp"
-        android:layout_height="201dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/mvRating"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="15dp"
-        android:layout_toEndOf="@+id/mvPoster"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/poppins"
+        android:justificationMode="inter_word"
+        android:paddingHorizontal="20dp"
         tools:text="Movie description so long it is good" />
 
     <RatingBar
@@ -38,17 +40,20 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/mvTitle"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="7dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="23dp" />
 
     <ImageView
         android:id="@+id/mvPoster"
-        android:layout_width="167dp"
-        android:layout_height="201dp"
-        android:layout_below="@+id/mvRating"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="22dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mvOverview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
         tools:srcCompat="@tools:sample/avatars" />
 
 </RelativeLayout>
