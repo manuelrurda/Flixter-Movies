@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/Users/manuelrurda/AndroidStudioProjects/FlixterMovies/showcase.gif' title='Flixter Movies App Showcase' width='100' alt='Video Walkthrough' />
+<img src='https://github.com/manuelrurda/Flixter-Movies/blob/main/showcase.gif' title='Flixter Movies App Showcase' width='100' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
