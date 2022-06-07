@@ -2,7 +2,7 @@
 
 **Flixter Movies** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **5** hours spent in total
+Time spent: **7** hours spent in total
 
 ## User Stories
 
@@ -33,13 +33,13 @@ GIF created with [Kap](https://getkap.co/).
 
 After stretch goals (Portrait):
 
-<img src='https://github.com/manuelrurda/Flixter-Movies/blob/main/ImprovedShowcasePortrait.gif' title='Flixter Movies App Improved Showcase' width='700' alt='Video Walkthrough' />
+<img src='https://github.com/manuelrurda/Flixter-Movies/blob/main/ImprovedShowcasePortrait.gif' title='Flixter Movies App Improved Showcase' width='500' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
 After stretch goals (Landscape):
 
-<img src='https://github.com/manuelrurda/Flixter-Movies/blob/main/ImprovedShowcaseLandscape.gif' title='Flixter Movies App Improved Showcase' width='700' alt='Video Walkthrough' />
+<img src='https://github.com/manuelrurda/Flixter-Movies/blob/main/ImprovedShowcaseLandscape.gif' title='Flixter Movies App Improved Showcase' width='500' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
